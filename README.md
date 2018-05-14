@@ -8,7 +8,7 @@ To initialize your local repository using the CarbonROM trees, use a command lik
 
     $ repo init -u https://github.com/CarbonROM/android.git -b cr-6.1
     $ mkdir -p .repo/local_manifests
-    $ wget https://gist.githubusercontent.com/TheStrechh/d08ef46eb00f8604c5e3cf82726b6e0a/raw/32cfdf690771737135f1356ee5293816679e8732/roomservice.xml -O .repo/local_manifests/roomservice.xml
+    $ wget https://gist.githubusercontent.com/TheStrechh/d08ef46eb00f8604c5e3cf82726b6e0a/raw/267fb37756c8d7a56d41ea3c10c37b4a66e84b2a/roomservice.xml -O .repo/local_manifests/roomservice.xml
 
 Then to sync up:
 
