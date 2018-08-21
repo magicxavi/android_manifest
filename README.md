@@ -1,34 +1,25 @@
-CarbonROM
-===========
+LineageOS 16.0
+==============
 
 Getting Started
 ---------------
 
 To initialize your local repository using the CarbonROM trees, use a command like this:
 
-    $ repo init -u https://github.com/CarbonROM/android.git -b cr-6.1
+    $ repo init -u git://github.com/LineageOS/android.git -b lineage-16.0
     $ mkdir -p .repo/local_manifests
-    $ wget https://gist.githubusercontent.com/TheStrechh/d08ef46eb00f8604c5e3cf82726b6e0a/raw/74307f18163b5eff79d4ebf2d3e1fe3f1c7d07cf/carbon_rolex.xml -O .repo/local_manifests/roomservice.xml
+    $ wget https://gist.githubusercontent.com/TheStrechh/530507ff9c76d8d7675d4b594a5688f9/raw/df47f79aea29d57e9e63d00190a34580c300d6af/kenzo.xml -O .repo/local_manifests/roomservice.xml
 
 Then to sync up:
 
-    $ repo sync -q -f -j8
+    $ repo sync --force-sync -q -j8
 
 
-Building for Xiaomi Redmi 4A
+Building for Xiaomi Redmi Note 3 (kenzo/kate)
 ---------------
 
 To build:
 
     $ . build/envsetup.sh
-    $ lunch carbon_rolex-userdebug
-    $ make carbon -j8
-
-Building for Xiaomi Redmi 5A
----------------
-
-To build:
-
-    $ . build/envsetup.sh
-    $ lunch carbon_riva-userdebug
-    $ make carbon -j8
+    $ lunch lineage_kenzo-eng
+    $ make bacon -j8
