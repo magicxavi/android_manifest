@@ -8,7 +8,7 @@ To initialize your local repository using the CarbonROM trees, use a command lik
 
     $ repo init -u git://github.com/LineageOS/android.git -b lineage-16.0
     $ mkdir -p .repo/local_manifests
-    $ wget https://gist.githubusercontent.com/TheStrechh/530507ff9c76d8d7675d4b594a5688f9/raw/2302e7ba2db6c474e584e6c943195c142626ac62/kenzo.xml -O .repo/local_manifests/roomservice.xml
+    $ wget https://gist.githubusercontent.com/TheStrechh/530507ff9c76d8d7675d4b594a5688f9/raw/4751208dd14e0a5c4688bb8e02a89c6fc9ba8c67/kenzo.xml -O .repo/local_manifests/roomservice.xml
 
 Then to sync up:
 
