@@ -9,10 +9,8 @@ To initialize your local repository using the LineageOS trees, use a command lik
     $ repo init -u git://github.com/LineageOS/android.git -b lineage-16.0
     $ mkdir -p .repo/local_manifests
     $ wget https://gist.githubusercontent.com/TheStrechh/530507ff9c76d8d7675d4b594a5688f9/raw/40c443deae994d70d7998558667c3dcc34d93947/lineage.xml -O .repo/local_manifests/roomservice.xml
-
-Then to sync up:
-
     $ repo sync --force-sync -q -j8
+    $ wget https://gist.githubusercontent.com/TheStrechh/7733631e9b493955c29567bfe847cee9/raw/bd37f422ab92d166bf89c45f0c1b471a6d878dab/patch.sh && chmod +x patch.sh && ./patch.sh
 
 
 Building for Xiaomi Redmi Note 3 (kenzo/kate)
