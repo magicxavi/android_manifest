@@ -8,7 +8,7 @@ To initialize your local repository using the LineageOS trees, use a command lik
 
     $ repo init -u git://github.com/LineageOS/android.git -b lineage-16.0
     $ mkdir -p .repo/local_manifests
-    $ wget https://gist.githubusercontent.com/TheStrechh/530507ff9c76d8d7675d4b594a5688f9/raw/ea1d0959bb9d0654f7e55817e3aad31178b91df3/lineage.xml -O .repo/local_manifests/roomservice.xml
+    $ wget https://gist.githubusercontent.com/TheStrechh/530507ff9c76d8d7675d4b594a5688f9/raw/40c443deae994d70d7998558667c3dcc34d93947/lineage.xml -O .repo/local_manifests/roomservice.xml
 
 Then to sync up:
 
